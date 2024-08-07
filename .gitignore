@@ -1,0 +1,278 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Dependency directories
+bower_components/
+jspm_packages/
+tmp/
+temp/
+
+# Build directories
+dist/
+build/
+out/
+
+# Cache directories
+.cache/
+.ensime_cache/
+target/
+tmp/
+build/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pydistutils.cfg
+.venv/
+env/
+venv/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+# .NET
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.log
+*.obj
+*.lib
+*.sbr
+*.o
+*.d
+*.ds_store
+*.suo
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+
+# Swift
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+*.playground/
+*.playgroundbook/
+.build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.metadata_never_index
+.noindex
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Android
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+output.json
+
+# iOS
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# PHP
+vendor/
+composer.lock
+composer.phar
+
+# Ruby
+*.gem
+*.rbc
+.bundle
+config/config.yml
+.yardoc
+_yardoc
+.rvmrc
+.rvm/
+.vagrant/
+.sass-cache/
+.rspec
+.ruby-version
+.ruby-gemset
+
+# Go
+vendor/
+Godeps/
+*.exe
+*.exe~
+
+# C/C++
+*.d
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.class
+*.psd
+*.db
+*.pdb
+*.ilk
+*.lib
+*.sbr
+*.mlo
+*.mld
+*.mldbin
+*.bak
+*.swp
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.log
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.fdb_latexmk
+
+# Lua
+*.luac
+
+# Julia
+*.jl.cov
+*.jl.mem
+*.jl.*.cov
+*.jl.*.mem
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Ruserdata*
+.Renviron
+.Rprofile
+.Rproj.user/
+
+# Kotlin
+*.iml
+*.ipr
+*.iws
+
+# Haskell
+dist/
+dist-*/
+
+# Elm
+elm-stuff/
+
+# Rust
+target/
+Cargo.lock
+
+# Miscellaneous
+*.swp
+*.swo
+*~
+*.bak
+*.backup
+*.orig
+*.undo
+
+# Temp files
+*.tmp
+*.temp
+
+# Specific to the 'www' directories of content management systems
+sites/default/files/
+sites/default/private/
+sites/default/settings.php
+sites/default/settings.local.php
+sites/default/settings.*.php
+
+# Specific to the 'storage' directories of Laravel and other PHP frameworks
+storage/
+bootstrap/cache/
+
+# Any other file types
+*.tar.gz
+*.zip
+*.tar
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# Specific to API keys and other sensitive data
+.env
+.env.*
+.env.local
+
+# Ignore all text files
+*.txt
+
+# Ignore all files except specific ones
+*
+!.gitignore
