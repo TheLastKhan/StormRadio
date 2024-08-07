@@ -55,6 +55,9 @@ __pycache__/
 env/
 venv/
 
+# Allow all Python files
+!*.py
+
 # Java
 *.class
 *.jar
@@ -272,7 +275,3 @@ bootstrap/cache/
 
 # Ignore all text files
 *.txt
-
-# Ignore all files except specific ones
-*
-!.gitignore
